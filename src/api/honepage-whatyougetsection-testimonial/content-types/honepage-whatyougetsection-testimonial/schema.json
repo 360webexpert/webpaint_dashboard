@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "honepage_whatyougetsection_testimonials",
+  "info": {
+    "singularName": "honepage-whatyougetsection-testimonial",
+    "pluralName": "honepage-whatyougetsection-testimonials",
+    "displayName": "honepage/whatyougetsection-testimonial",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "testimonial_comment": {
+      "type": "text"
+    },
+    "rating": {
+      "type": "integer",
+      "max": 5
+    },
+    "testinomial_name": {
+      "type": "string"
+    },
+    "testimonial_job": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ctaheading": {
+      "type": "string"
+    },
+    "ctadescription": {
+      "type": "text"
+    },
+    "ctaimage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

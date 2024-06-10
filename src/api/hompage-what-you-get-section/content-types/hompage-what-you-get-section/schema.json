@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hompage_what_you_get_sections",
+  "info": {
+    "singularName": "hompage-what-you-get-section",
+    "pluralName": "hompage-what-you-get-sections",
+    "displayName": "Hompage/whatYouGet_section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading_one": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    },
+    "icon": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "headinglist": {
+      "type": "string"
+    },
+    "descriptionlist": {
+      "type": "text",
+      "required": true,
+      "minLength": 10
+    }
+  }
+}

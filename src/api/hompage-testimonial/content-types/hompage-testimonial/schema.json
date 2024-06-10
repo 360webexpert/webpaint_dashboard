@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hompage_testimonials",
+  "info": {
+    "singularName": "hompage-testimonial",
+    "pluralName": "hompage-testimonials",
+    "displayName": "Hompage/Testimonial",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "comment": {
+      "type": "text",
+      "minLength": 5
+    },
+    "Rating": {
+      "required": true,
+      "type": "integer",
+      "max": 5
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "job": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aboutuses",
+  "info": {
+    "singularName": "aboutus",
+    "pluralName": "aboutuses",
+    "displayName": "Aboutus",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "fas fa-pencil-alt"
+      ]
+    },
+    "valuetitle": {
+      "type": "string"
+    },
+    "valuedescription": {
+      "type": "text"
+    },
+    "aboutsection_titles": {
+      "type": "string"
+    },
+    "aboutsection_description": {
+      "type": "text"
+    },
+    "whywebpaint_title": {
+      "type": "string"
+    },
+    "whywebpaint_description": {
+      "type": "text"
+    },
+    "whywebpaint_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "value_heading": {
+      "type": "string"
+    },
+    "value_description": {
+      "type": "text"
+    }
+  }
+}

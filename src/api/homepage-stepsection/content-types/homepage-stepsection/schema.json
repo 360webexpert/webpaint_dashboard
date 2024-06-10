@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepage_stepsections",
+  "info": {
+    "singularName": "homepage-stepsection",
+    "pluralName": "homepage-stepsections",
+    "displayName": "homepage/stepsection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "stepsheading": {
+      "type": "string",
+      "required": true
+    },
+    "stepsdescription": {
+      "type": "text",
+      "minLength": 10
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

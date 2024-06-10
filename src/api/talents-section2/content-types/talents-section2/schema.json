@@ -1,0 +1,96 @@
+{
+  "kind": "collectionType",
+  "collectionName": "talents_section2s",
+  "info": {
+    "singularName": "talents-section2",
+    "pluralName": "talents-section2s",
+    "displayName": "Talents/section2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "weDevelope_heading": {
+      "type": "string"
+    },
+    "weDevelope_description": {
+      "type": "text"
+    },
+    "weDevelope_image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "weDevelope_comonlist": {
+      "type": "string"
+    },
+    "accordion_question": {
+      "type": "string"
+    },
+    "accordion_answer": {
+      "type": "string"
+    },
+    "accordion_solution": {
+      "type": "string"
+    },
+    "talents_title": {
+      "type": "string"
+    },
+    "talents_description": {
+      "type": "text"
+    },
+    "talents_image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "outsource_heading": {
+      "type": "string"
+    },
+    "outsource_description": {
+      "type": "string"
+    },
+    "accordion_heading": {
+      "type": "string"
+    },
+    "accordion_description": {
+      "type": "text"
+    },
+    "cta_section_heading": {
+      "type": "string"
+    },
+    "cta_section_description": {
+      "type": "text"
+    },
+    "cta_section_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

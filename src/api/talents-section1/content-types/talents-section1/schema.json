@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "talents_section1s",
+  "info": {
+    "singularName": "talents-section1",
+    "pluralName": "talents-section1s",
+    "displayName": "Talents/section1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headingone": {
+      "type": "string"
+    },
+    "descriptionone": {
+      "type": "text"
+    },
+    "talents_header_img": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "TalentPool": {
+      "type": "biginteger"
+    },
+    "SkillCategories": {
+      "type": "biginteger"
+    },
+    "AllInOne": {
+      "type": "biginteger"
+    },
+    "process_heading": {
+      "type": "string"
+    },
+    "process_description": {
+      "type": "text"
+    },
+    "process_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

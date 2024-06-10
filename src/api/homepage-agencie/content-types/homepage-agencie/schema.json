@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepage_agencies",
+  "info": {
+    "singularName": "homepage-agencie",
+    "pluralName": "homepage-agencies",
+    "displayName": "Homepage/agencie",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "taskcount": {
+      "type": "integer"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "projectcount": {
+      "type": "integer"
+    }
+  }
+}

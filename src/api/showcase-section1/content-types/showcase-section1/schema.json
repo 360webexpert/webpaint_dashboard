@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "showcase_section1s",
+  "info": {
+    "singularName": "showcase-section1",
+    "pluralName": "showcase-section1s",
+    "displayName": "Showcase/Section1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Showcase_label": {
+      "type": "string"
+    },
+    "Showcase_image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "UID": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}

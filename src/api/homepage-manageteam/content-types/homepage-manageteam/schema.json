@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepage_manageteams",
+  "info": {
+    "singularName": "homepage-manageteam",
+    "pluralName": "homepage-manageteams",
+    "displayName": "Homepage/manageteam",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "testimonial_comment": {
+      "type": "text"
+    },
+    "starrating": {
+      "type": "integer",
+      "required": false,
+      "max": 5
+    },
+    "testinomial_name": {
+      "type": "string",
+      "required": false
+    },
+    "testimonial_job": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "technologies_title": {
+      "type": "string"
+    },
+    "technologies_icons": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepage_portfoliosections",
+  "info": {
+    "singularName": "homepage-portfoliosection",
+    "pluralName": "homepage-portfoliosections",
+    "displayName": "Homepage/portfoliosection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "portfolio_imgage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

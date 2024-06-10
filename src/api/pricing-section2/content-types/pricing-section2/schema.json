@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pricing_section2s",
+  "info": {
+    "singularName": "pricing-section2",
+    "pluralName": "pricing-section2s",
+    "displayName": "Pricing/section2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "testimonial_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "testimonial_comment": {
+      "type": "text",
+      "required": false
+    },
+    "testimonial_rating": {
+      "max": 5,
+      "type": "integer",
+      "required": false
+    },
+    "testinomial_name": {
+      "type": "string",
+      "required": false
+    },
+    "testimonial_job": {
+      "type": "string",
+      "required": false
+    },
+    "frequently_question": {
+      "type": "string"
+    },
+    "frequently_answer": {
+      "type": "text"
+    },
+    "cta_section_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "cta_section_heading": {
+      "type": "string"
+    },
+    "cta_section_description": {
+      "type": "text"
+    }
+  }
+}

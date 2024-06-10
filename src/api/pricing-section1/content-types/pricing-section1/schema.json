@@ -1,0 +1,84 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pricing_section1s",
+  "info": {
+    "singularName": "pricing-section1",
+    "pluralName": "pricing-section1s",
+    "displayName": "Pricing/section1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_title": {
+      "type": "string"
+    },
+    "hero_paragraph": {
+      "type": "text"
+    },
+    "inclusive_heading_one": {
+      "type": "string"
+    },
+    "inclusive_pargraph": {
+      "type": "text"
+    },
+    "inclusive_perkimage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "price": {
+      "type": "string"
+    },
+    "image_text": {
+      "type": "string"
+    },
+    "counter_section_heading": {
+      "type": "string"
+    },
+    "counter_section_title": {
+      "type": "string"
+    },
+    "growing_section_heading": {
+      "type": "string"
+    },
+    "growing_section_description": {
+      "type": "text"
+    },
+    "growing_section_image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "growing_section_image_title": {
+      "type": "string"
+    },
+    "wrong_list_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "wrong_list_imagetext": {
+      "type": "string"
+    }
+  }
+}

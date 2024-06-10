@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepage_plansections",
+  "info": {
+    "singularName": "homepage-plansection",
+    "pluralName": "homepage-plansections",
+    "displayName": "Homepage/plansection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true,
+      "minLength": 10
+    },
+    "description": {
+      "type": "text",
+      "minLength": 10
+    },
+    "typewriterText": {
+      "type": "text"
+    }
+  }
+}

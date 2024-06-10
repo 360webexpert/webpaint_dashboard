@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepage_ourteams",
+  "info": {
+    "singularName": "homepage-ourteam",
+    "pluralName": "homepage-ourteams",
+    "displayName": "Homepage/ourteam",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "teamname": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "teamposition": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
