@@ -1,7 +1,7 @@
 
 module.exports = ({ env }) => ({
   connection: {
-    client: 'mysql2', 
+    client: 'mysql2',
     connection: {
       host: process.env.DATABASE_HOST,
       port: parseInt(process.env.DATABASE_PORT, 10),
@@ -17,7 +17,7 @@ module.exports = ({ env }) => ({
       idleTimeoutMillis: 60000,
     },
   },
-  
+
 });
 
 
