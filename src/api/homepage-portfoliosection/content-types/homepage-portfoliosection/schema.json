@@ -4,7 +4,8 @@
   "info": {
     "singularName": "homepage-portfoliosection",
     "pluralName": "homepage-portfoliosections",
-    "displayName": "Homepage/portfoliosection"
+    "displayName": "Homepage/portfoliosection",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,14 +16,20 @@
       "type": "text"
     },
     "portfolio_imgage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "url": {
+      "type": "string",
+      "regex": "^https?:\\/\\/[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}.*$",
+      "required": true
     }
   }
 }

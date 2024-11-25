@@ -1114,6 +1114,7 @@ export interface ApiHomepagePortfoliosectionHomepagePortfoliosection
     singularName: 'homepage-portfoliosection';
     pluralName: 'homepage-portfoliosections';
     displayName: 'Homepage/portfoliosection';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -1121,6 +1122,7 @@ export interface ApiHomepagePortfoliosectionHomepagePortfoliosection
   attributes: {
     heading: Attribute.Text;
     portfolio_imgage: Attribute.Media;
+    url: Attribute.String & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1647,6 +1649,36 @@ export interface ApiTalentsSection2TalentsSection2
   };
 }
 
+export interface ApiTest1Test1 extends Schema.CollectionType {
+  collectionName: 'test1s';
+  info: {
+    singularName: 'test1';
+    pluralName: 'test1s';
+    displayName: 'test1';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    test: Attribute.String;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::test1.test1',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::test1.test1',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 declare module '@strapi/types' {
   export module Shared {
     export interface ContentTypes {
@@ -1686,6 +1718,7 @@ declare module '@strapi/types' {
       'api::showcase-section2.showcase-section2': ApiShowcaseSection2ShowcaseSection2;
       'api::talents-section1.talents-section1': ApiTalentsSection1TalentsSection1;
       'api::talents-section2.talents-section2': ApiTalentsSection2TalentsSection2;
+      'api::test1.test1': ApiTest1Test1;
     }
   }
 }
